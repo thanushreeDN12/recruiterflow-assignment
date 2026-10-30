@@ -1,0 +1,53 @@
+{
+  "info": {
+    "name": "Recruiter Bot API",
+    "description": "Endpoints for the Recruiterflow Backend Take-Home Assignment.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Get Matches for Job",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/jobs/1/matches",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "jobs",
+            "1",
+            "matches"
+          ]
+        },
+        "description": "Fetches and ranks the best candidates for a given job ID."
+      },
+      "response": []
+    },
+    {
+      "name": "Get Matches for Candidate",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/candidates/1/matches",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "candidates",
+            "1",
+            "matches"
+          ]
+        },
+        "description": "Fetches and ranks the best open jobs for a given candidate ID."
+      },
+      "response": []
+    }
+  ]
+}
