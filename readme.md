@@ -1,6 +1,6 @@
 Recruiter Bot
 
-A candidate ↔ job matching API built for the Recruiterflow Backend Take-Home Assignment.
+A candidate ↔ job matching API built for the Recruiterflow.
 
 Part 1: REST API that ranks candidates for a job (and jobs for a candidate) using a weighted scoring algorithm.
 Part 2: Raw SQL solutions for the Detective Challenge.
@@ -113,8 +113,9 @@ catch logical edge cases (e.g. negative experience values or zero-requirement jo
 
 All final implementations, database designs, and architectural decisions are my own.
 
-Repository Structure
-text
+## Repository Structure
+
+```text
 .
 ├── app.js                                  # Express server + matching algorithm
 ├── db.js                                   # MySQL connection pool config
@@ -127,3 +128,4 @@ text
 ├── .env.example
 ├── package.json
 └── README.md
+```
