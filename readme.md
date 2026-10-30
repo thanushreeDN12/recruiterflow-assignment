@@ -1,4 +1,4 @@
-# Recruiter Bot (Backend Take-Home Assignment)
+# Recruiter Bot
 
 This repository contains my submission for the Recruiterflow Backend Take-Home Assignment. It includes a custom-built API for matching candidates to jobs (Part 1) and raw SQL queries for the Detective Challenge (Part 2).
 
