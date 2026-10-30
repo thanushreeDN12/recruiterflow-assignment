@@ -61,6 +61,7 @@ bash
 curl -X GET http://localhost:3000/jobs/4/matches
 
 Get Matches for Job
+![Get Matches for Job](https://raw.githubusercontent.com/thanushreeDN12/recruiterflow-assignment/main/assets/job-match.png)
 
 2. Top jobs for a candidate
 
@@ -70,6 +71,7 @@ bash
 curl -X GET http://localhost:3000/candidates/14/matches
 
 Get Matches for Candidate
+![Get Matches for Candidate](https://raw.githubusercontent.com/thanushreeDN12/recruiterflow-assignment/main/assets/candidate-match.png)
 
 Matching Algorithm
 
