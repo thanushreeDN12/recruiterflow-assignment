@@ -35,6 +35,7 @@ Finds the best-matched candidates for a specific job (e.g., Job ID 4).
 Bash
 curl -X GET http://localhost:3000/jobs/4/matches
 Postman Response Example:
+![Get Matches for Job](./job-match.png)
 
 2. Get Top Jobs for a Candidate
 Finds the best-matched open roles for a specific candidate (e.g., Candidate ID 14).
@@ -42,8 +43,9 @@ Finds the best-matched open roles for a specific candidate (e.g., Candidate ID 1
 Bash
 curl -X GET http://localhost:3000/candidates/14/matches
 Postman Response Example:
+![Get Matches for Candidate](./candidate-match.png)
 
-Architecture & Trade-offs: What I Chose and Why
+ Architecture & Trade-offs: What I Chose and Why
 To strictly adhere to the "no ORMs or query builders" constraint while building a performant and readable application, I had to make several deliberate architectural choices:
 
 1. In-Memory Scoring vs. Database Scoring
